@@ -31,7 +31,7 @@ export function PublishingPanel({
   return (
     <div className="space-y-4">
       {/* Status Card */}
-      <Card>
+      {/* <Card>
         <CardHeader>
           <CardTitle className="text-lg">Publishing</CardTitle>
         </CardHeader>
@@ -67,7 +67,7 @@ export function PublishingPanel({
             </Button>
           </div>
 
-          {/* Status Badge */}
+         
           <div className="flex items-center gap-2">
             <Badge 
               variant={status === 'published' ? 'default' : status === 'scheduled' ? 'secondary' : 'outline'}
@@ -79,7 +79,7 @@ export function PublishingPanel({
             </Badge>
           </div>
 
-          {/* Published Date */}
+        
           {publishedDate && (
             <div className="text-xs">
               <p className="text-muted-foreground mb-1">Published Date</p>
@@ -87,7 +87,7 @@ export function PublishingPanel({
             </div>
           )}
 
-          {/* Schedule Input */}
+        
           {showScheduleInput && (
             <div className="space-y-2">
               <label className="text-xs font-medium text-foreground">Schedule for</label>
@@ -101,7 +101,7 @@ export function PublishingPanel({
             </div>
           )}
         </CardContent>
-      </Card>
+      </Card> */}
 
       {/* Stats Card */}
       <Card>

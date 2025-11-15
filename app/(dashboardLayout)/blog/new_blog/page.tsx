@@ -8,9 +8,14 @@ import { Textarea } from '@/components/ui/textarea'
 import { Badge } from '@/components/ui/badge'
 import { ArrowLeft, Eye, Save, Clock, Calendar } from 'lucide-react'
 import Link from 'next/link'
-import { RichTextEditor } from '@/components/blog/rich-text-editor'
+
 import { MetaTagsPanel } from '@/components/blog/meta-tags-panel'
 import { PublishingPanel } from '@/components/blog/publishing-panel'
+import RichTextEditor from '@/components/blog/rich-text-editor'
+
+
+
+
 
 interface BlogPost {
   id: string
@@ -98,7 +103,7 @@ export default function BlogEditPage({ params }: { params: { id: string } }) {
             </div>
           </div>
 
-          <div className="flex items-center gap-3">
+          {/* <div className="flex items-center gap-3">
             <Button 
               variant="outline" 
               size="sm"
@@ -117,7 +122,7 @@ export default function BlogEditPage({ params }: { params: { id: string } }) {
               <Save className="w-4 h-4" />
               {isSaving ? 'Saving...' : 'Save Draft'}
             </Button>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -193,8 +198,6 @@ export default function BlogEditPage({ params }: { params: { id: string } }) {
             </CardHeader>
             <CardContent>
               <RichTextEditor 
-                value={post.content} 
-                onChange={handleContentChange}
               />
             </CardContent>
           </Card>
@@ -223,7 +226,7 @@ export default function BlogEditPage({ params }: { params: { id: string } }) {
       </div>
 
       {/* Preview Modal */}
-      {isPreviewOpen && (
+      {/* {isPreviewOpen && (
         <div className="fixed inset-0 z-50 bg-black/50 flex items-center justify-center p-4">
           <Card className="w-full max-w-2xl max-h-96 overflow-y-auto">
             <CardHeader>
@@ -247,7 +250,7 @@ export default function BlogEditPage({ params }: { params: { id: string } }) {
             </CardContent>
           </Card>
         </div>
-      )}
+      )} */}
     </div>
   )
 }
