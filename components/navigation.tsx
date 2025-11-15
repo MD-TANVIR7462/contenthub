@@ -26,7 +26,7 @@ export function Navigation() {
     { link: "pages", label: "Pages", icon: FileText },
     { link: "sections", label: "Sections", icon: Layers },
     { link: "blog", label: "Blog", icon: FileText },
-    // { link: "seo", label: "SEO", icon: Search },
+    { link: "seo", label: "SEO", icon: Search },
     { link: "media", label: "Media", icon: ImageIcon },
   ];
 
