@@ -1,0 +1,11 @@
+{
+  "/(dashboardLayout)/blog/new_blog/page": "/blog/new_blog",
+  "/(dashboardLayout)/blog/page": "/blog",
+  "/(dashboardLayout)/media/page": "/media",
+  "/(dashboardLayout)/page": "/",
+  "/(dashboardLayout)/pages/page": "/pages",
+  "/(dashboardLayout)/sections/page": "/sections",
+  "/(dashboardLayout)/seo/page": "/seo",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found"
+}

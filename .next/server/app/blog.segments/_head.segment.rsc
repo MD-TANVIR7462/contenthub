@@ -1,0 +1,8 @@
+1:"$Sreact.fragment"
+2:I[81994,["/_next/static/chunks/81ca4a34ca69805a.js","/_next/static/chunks/34281857cc4a15df.js"],"ViewportBoundary"]
+4:I[81994,["/_next/static/chunks/81ca4a34ca69805a.js","/_next/static/chunks/34281857cc4a15df.js"],"MetadataBoundary"]
+5:"$Sreact.suspense"
+7:I[2482,["/_next/static/chunks/81ca4a34ca69805a.js","/_next/static/chunks/34281857cc4a15df.js"],"IconMark"]
+0:{"buildId":"gq5gNi0g5e8VHPIpUwwzh","rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":"$@3"}],["$","div",null,{"hidden":true,"children":["$","$L4",null,{"children":["$","$5",null,{"name":"Next.Metadata","children":"$@6"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"loading":null,"isPartial":false}
+3:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+6:[["$","title","0",{"children":"Website Content Dashboard"}],["$","meta","1",{"name":"description","content":"Manage your website content, blog posts, SEO, and media files"}],["$","meta","2",{"name":"generator","content":"v0.app"}],["$","link","3",{"rel":"icon","href":"/icon-light-32x32.png","media":"(prefers-color-scheme: light)"}],["$","link","4",{"rel":"icon","href":"/icon-dark-32x32.png","media":"(prefers-color-scheme: dark)"}],["$","link","5",{"rel":"icon","href":"/icon.svg","type":"image/svg+xml"}],["$","link","6",{"rel":"apple-touch-icon","href":"/apple-icon.png"}],["$","$L7","7",{}]]
