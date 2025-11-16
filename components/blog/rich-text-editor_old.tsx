@@ -50,7 +50,7 @@ import {
   Unlink,
 } from "lucide-react";
 
-export default function RichTextEditor() {
+export default function RichTextEditor3() {
   const [content, setContent] = useState("");
   const [isFocused, setIsFocused] = useState(false);
   const [dragOver, setDragOver] = useState(false);

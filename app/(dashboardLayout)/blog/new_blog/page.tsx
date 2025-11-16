@@ -11,7 +11,8 @@ import Link from 'next/link'
 
 import { MetaTagsPanel } from '@/components/blog/meta-tags-panel'
 import { PublishingPanel } from '@/components/blog/publishing-panel'
-import RichTextEditor from '@/components/blog/rich-text-editor'
+import { RichTextEditor } from '@/components/blog/rich-Code-editor/RichTextEditor'
+
 
 
 
